@@ -1,4 +1,5 @@
-Zadanie 1.
+# Sprint_5-Adam_Matuszczyk
+### Zadanie 1.
 Napisz funkcję przetwarzającą tablicę obiektów osób.
 Funkcja powinna generować pseudonim na podstawie określonych
 zasad i dodawać go do każdego obiektu osoby, gdy jest to możliwe.
@@ -14,7 +15,7 @@ Jeśli firstName lub lastName ma mniej niż trzy znaki
 (pomiń znaki białe) lub nie jest typu string, nie dodawaj
 właściwości pseudonimu dla tej osoby.
 
-Zadanie 2.
+### Zadanie 2.
 Stwórz funkcję, która przetworzy tablicę osób z pierwszego zadania
 (Należy wykorzystać wynik wywołania funkcji z pierwszego zadania),
 zwracając tylko osoby, które mają przypisany pseudonim oraz dodając
@@ -35,7 +36,7 @@ Dodaj pole age do każdego obiektu osoby.
 Zadbaj o to by wiek był zaokrąglony w górę
 (odszukaj potrzebnej informacji w internecie).
 
-Zadanie 3.
+### Zadanie 3.
 Stwórz funkcję, która analizuje tablicę osób z drugiego
 zadania i znajduje najczęściej występującą literę w polach
 firstName, lastName oraz nickname dla każdej osoby.
