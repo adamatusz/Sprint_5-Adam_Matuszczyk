@@ -11,9 +11,7 @@ const persons = [
     return obj.nickName;
   })
   .map((obj, index) =>  {
-    const firstNameLength = obj.firstName.length;
-    const lastNameLength = obj.lastName.length;
-    const sumFirstLastName = firstNameLength + lastNameLength;
+    const sumFirstLastName = obj.firstName.length + obj.lastName.length;
 
     let objAge = 0;
     sumFirstLastName % 2 === 0 ?  objAge = sumFirstLastName
