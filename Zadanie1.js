@@ -28,12 +28,6 @@ const persons =
     },
   ];
 
-  const person =     [{
-    firstName: "Roman",
-    lastName: "Kowalski",
-  }];
-
-
   const newArray = persons.map((person) => {
     if (typeof person.firstName === "string" &&
                person.firstName.length >= 3 &&
