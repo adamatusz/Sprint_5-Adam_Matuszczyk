@@ -16,7 +16,7 @@ const persons = [
     let objAge = 0;
     sumFirstLastName % 2 === 0 ?  objAge = sumFirstLastName
     : objAge = Object.keys(obj).reduce((previousValue, currentValue) => { 
-      return Math.ceil((previousValue += currentValue.length) / (index !== 0 ? index : 1));
+      return Math.ceil((previousValue + currentValue.length) / (index !== 0 ? index : 1));
     }, 0);
     return {
       firstName: obj.firstName,
